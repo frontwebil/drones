@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="main.css" />
   <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="media.css">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet" />
@@ -19,7 +20,7 @@
     <div class="header-top-container">
       <div class="header-top">
         <img src="img/logo.png" alt="" class="header-logo" />
-        <div class="header-top-navigation">
+        <div class="header-top-navigation" style="font-size: 24px;">
           <a href="#" class="header-top-navigation-text">Головна</a>
           <a href="#" class="header-top-navigation-text">Про РЕБ</a>
           <a href="#" class="header-top-navigation-text">Продукція</a>
@@ -37,13 +38,13 @@
       </div>
     </div>
 
-    <!-- <div class="header-top-container">
-      <div class="header-top" style="width: 1000px;justify-content: space-between;"> 
+    <div class="header-top-container burger">
+      <div class="header-top" style="width: 1300px;justify-content: space-between;"> 
         <img src="img/logo.png" alt="" class="header-logo" />
         <button id="burger-open"><img src="icon/List.svg" alt="" /></button>
 
       </div>
-    </div> -->
+    </div>
 
     <div class="menu" id="menu">
       <div class="container-menu" style="text-align: center">
@@ -127,12 +128,12 @@
       <div class="line-orange"></div>
     </div>
 
-    <div class="about-defender-info">
+    <div class="about-defender-info" style="z-index: 2;">
       <h2 class="about-defender-info-title">
         Купольна антидрон система "Defender" всенаправлений<br />
         глушник для дронів. Глушилка FPV. РЕБ
       </h2>
-      <p>
+      <p >
         Пристрій для придушення ворожих FPV/ Mavic/ Autel. Він глушить
         частоти, на яких працюють дрони.<br /><br />
         Окопний РЕБ підходить для встановлення на стаціонарну позицію, щоб
@@ -148,7 +149,7 @@
 
   <div class="about-defender-end">
     <div class="about-defender-end-container">
-      <p>Головна мета – придушити сигнали, послабити супротивника</p>
+      <p style="z-index: 2;">Головна мета – придушити сигнали, послабити супротивника</p>
     </div>
     <img src="img/drone.png" alt="" class="drone" />
   </div>
@@ -251,7 +252,8 @@
           3-х канальна<br><br>
         </h2>
         <p class="product-card-info">
-          У комплекті два акумулятора <span style="color: black;font-size: 18px;">6S4P та 6S2P</span> <br><br> Вага системи:
+          У комплекті два акумулятора <span style="color: black;font-size: 18px;">6S4P та 6S2P</span> <br><br> Вага
+          системи:
           <span style="color: black;font-size: 18px;">5 кг</span>
         </p>
         <p class="product-card-price">99 000 <span style="font-size: 20px;">грн</span></p>
@@ -295,6 +297,69 @@
   <div class="orange-model">
     <div class="orange-model-text">Кожна модель, може бути виготовлена в будь-якій комбінації частот</div>
   </div>
+
+  <section class="how-work">
+
+    <h2 class="how-work-title">Принцип роботи та характеристики</h2>
+    <div class="how-work-text">
+      <h2 class="how-work-title" style="white-space: nowrap;">системи "Defender"</h2>
+      <div class="line-orange" style="width: 60%;"></div>
+    </div>
+
+    <p class="how-work-info">
+      Купольна антидрон система <span style="font-weight: 600;">"Defender"</span>  функціонує за принципом створення захисного купола. Вона не виконує
+      спрямованої дії, натомість генерує купол з радіусом дії <span style="color: #E28121;">300 - 400 метрів</span> навколо себе. <br><br>
+      Цей купол ефективно протидіє частотам, які застосовані в більшості FPV-дронів, запобігаючи можливості управління
+      та контролю FPV-дрона (ELRS).
+    </p>
+
+    <h2 class="how-work-position-or-auto">
+      Принцип роботи РЕБ на стаціонарній позиції або з автомобіля:
+    </h2>
+
+    <div class="how-work-position-or-auto-cards">
+
+      <div class="how-work-position-or-auto-card">
+        <p class="how-work-position-or-auto-card-text">Ідентифікували<br>
+          звук або сигнал</p>
+        <p class="how-work-position-or-auto-card-number">1</p>
+      </div>
+
+      <div class="how-work-position-or-auto-card">
+        <p class="how-work-position-or-auto-card-text">Активували<br>
+          роботу</p>
+        <p class="how-work-position-or-auto-card-number">2</p>
+      </div>
+
+      <div class="how-work-position-or-auto-card">
+        <p class="how-work-position-or-auto-card-text">Заглушили<br>
+          дрон</p>
+        <p class="how-work-position-or-auto-card-number">3</p>
+      </div>
+
+      <div class="how-work-position-or-auto-card">
+        <p class="how-work-position-or-auto-card-text">Вимкнули<br>
+          систему</p>
+        <p class="how-work-position-or-auto-card-number">4</p>
+      </div>
+
+
+    </div>
+
+
+  </section>
+
+  <section class="characteristics">
+    <h2>характеристики:</h2>
+    <div class="characteristics-content">
+      <img src="" alt="">
+      <div class="characteristics-content-text">
+        <div class="characteristics-content-text-row">
+
+        </div>
+      </div>
+    </div>
+  </section>
 
   <script src="main.js"></script>
 </body>
