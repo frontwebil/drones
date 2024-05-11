@@ -1,3 +1,11 @@
+
+@media only screen and (max-width: 1480px) {
+  .drone {
+    width: 500px;
+    height: 300px;
+    top: -125px;
+  }
+}
 @media only screen and (max-width: 1300px) {
   .header-top-container{
     display: none;
@@ -12,7 +20,236 @@
     gap: 30px;
   }
 
+  .drone {
+    width: 365px;
+    height: 220px;
+    top: -50px;
 }
+
+.line-lime {
+  width: 50%;
+  height: 2px;
+  background-color: #c6c231;
+}
+.frequency-content-info{
+  position: absolute;
+}
+.frequency-content-img {
+  opacity: 0.25;
+}
+.frequency-content {
+  display: flex;
+  justify-content: center;
+}
+
+.img-charact{
+  display: none;
+}
+
+.characteristics-content {
+  justify-content: center;
+}
+
+.footer-image{
+  
+    max-width: 460px;
+    position: absolute;
+    right: 40px;
+    top: 55px;
+
+}
+}
+
+@media only screen and (max-width: 960px) {
+  .footer-container {
+    flex-direction: column;
+}
+.footer {
+  width: 100%;
+  background: linear-gradient(to right, #c6c231 100%, #4c4920 50%);
+}
+.footer-right-side {
+  background-color: #4c4920;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.characteristics-img-alarm {
+  position: static;
+  margin-top: 20px;
+  margin-bottom: -30px;
+}
+
+.button-footer {
+  margin-top: 0;
+}
+}
+
+@media only screen and (max-width: 860px) {
+  .img-under{
+    display: none;
+  }
+  .header-main-content-info {
+    font-size: 32px;
+  }
+  .header-main-content-title {
+    font-size: 80px;
+  }
+
+  .characteristics-content-text-row-item{
+    width: 330px;
+    height: 485px;
+  }
+  .frequency-content-img {
+    max-width: 620px;
+  }
+  .about-defender-title {
+    white-space: normal;
+  }
+  .about-defender-title {
+    flex-direction: column;
+  }
+  .drone {
+    width: 260px;
+    height: 158px;
+    top: 12px;
+}
+
+.product-line {
+  margin-top: 200px;
+}
+
+.frequency-content-info-order-button{
+  margin-bottom: 30px;
+}
+}
+
+@media only screen and (max-width: 720px) {
+  .how-work-text {
+    display: flex;
+    align-items: flex-start;;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.frequency-content-img {
+  max-width: 550px;
+}
+
+.characteristics-content-text-row-item {
+  width: 255px;
+  height: 320px;
+}
+
+.characteristics-img-alarm {
+  max-width: 380px;
+  height: 91px;
+}
+
+.header-main-content-title{
+  font-size: 60px;
+}
+
+
+}
+@media only screen and (max-width: 600px){
+.footer-left-side {
+  display: flex;
+  padding: 70px 50px 50px 0;
+  position: relative;
+}
+.footer-image{
+  opacity: 0.5;
+}
+.header-main-content-revolution {
+  font-family: TT Norms;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 37.77px;
+  text-align: left;
+  color: #f5f7f6;
+  display: flex;
+  gap: 45px;
+  align-items: center;
+}
+
+.frequency-content-img {
+  display: none;
+}
+
+.frequency-content-info {
+  position: static;
+}
+
+.product-line {
+  margin-top: 50px;
+}
+
+.characteristics-content-text-row-item {
+  width: 220px;
+  height: 200px;
+}
+
+.characteristics-content-text-row {
+  margin-top: 30px;
+  gap: 0;
+  margin-bottom: 30px
+}
+
+.characteristics-img-alarm {
+  max-width: 55%;
+  height: auto;
+}
+
+.under-conacts-container {
+  flex-direction: column;
+}
+
+}
+
+
+@media only screen and (max-width: 520px){
+  .header-main-content-container {
+    gap: 10px;
+}
+
+.header-main-content-title {
+  font-size: 40px;
+}
+
+.header-main-content-info {
+  font-size: 26px;
+}
+
+.how-work-title{
+  white-space: normal;
+  font-size: 33px;
+
+}
+
+}
+
+
+@media only screen and (max-width: 445px){
+  .header-main-content-revolution{
+    flex-direction: column;
+  }
+  .drone {
+    width: 180px;
+    height: 120px;
+    top: 50px;
+}
+.characteristics-content-text-row {
+  display: flex;
+  flex-direction: column;
+}
+}
+
+
+
 
 @media only screen and (min-width: 1301px) {
   .header-top-container.burger{
